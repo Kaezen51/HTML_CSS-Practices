@@ -21,3 +21,8 @@
     align-self: center;
     flex-grow: 1;
 }
+.flexbox-item-4 {
+    min-height: 300px;
+    align-self: center;
+    flex-grow: 2;
+}
