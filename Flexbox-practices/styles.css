@@ -10,19 +10,19 @@
 }
 .flexbox-item-1 {
     min-height: 100px;
-    align-self: flex-start;
+    align-self: center;
 }
 .flexbox-item-2 {
     min-height: 200px;
-    align-self: flex-end;
+    align-self: flex-start;
 }
 .flexbox-item-3 {
     min-height: 300px;
-    align-self: center;
-    flex-grow: 1;
+    align-self: flex-end;
+    flex-grow: 2;
 }
 .flexbox-item-4 {
-    min-height: 300px;
+    min-height: 500px;
     align-self: center;
-    flex-grow: 2;
+    flex-grow: 1;
 }
