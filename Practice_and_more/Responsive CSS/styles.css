@@ -1,21 +1,47 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
 .container {
     display: grid;
+    grid-gap: 1em;
 }
 
 .small-square {
     width: 200px;
     height: 200px;
     background-color: blue;
+    display: grid;
 }
 
-.medium-square {
-    width: 400px;
-    height: 400px;
-    background-color: green;
+.smaller-square {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: auto;
 }
 
-.large-square {
-    width: 600px;
-    height: 600px;
-    background-color: yellow;
+.small-text-square {
+    width: 75%;
+    height: 25vh;
+    background-color: blue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    color: antiquewhite;
+    padding: 50px;
+    margin: auto;
+}
+
+h3 {
+    margin: 0 0 25px 0;
 }
